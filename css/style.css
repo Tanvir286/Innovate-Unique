@@ -1,0 +1,821 @@
+/*=========== Common Css Start =================*/
+
+*{
+    margin: 0;
+    padding:0; 
+    
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    max-width: 1320px;
+    margin:0 auto;
+}
+
+
+.flex{
+    display: flex;
+}
+
+/*=============== Common Css end =====================*/
+
+/* ============Short Cut Area============= */
+
+
+.pap{
+    font-family: 'Paprika', cursive;
+}
+
+.nuni{
+    font-family: 'Nunito', sans-serif;
+}
+
+.open{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quick{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* --------------------------------------------- */
+
+
+.font-16{
+    font-size:16px;
+}
+
+.font-18{
+    font-size:18px;
+}
+
+.font-20{
+    font-size:20px;
+}
+
+.font-24{
+    font-size:24px;
+}
+
+.font-30{
+    font-size:30px;
+}
+
+.font-36{
+    font-size:36px;
+}
+
+.font-48{
+    font-size:48px;
+}
+
+.font-50{
+    font-size:48px;
+}
+
+.font-64{
+    font-size:64px;
+}
+
+.font-84{
+    font-size:84px;
+}
+
+/* --------------------------------------------- */
+
+.font-regular{
+    font-weight: 400;
+}
+
+.font-medium{
+    font-weight: 500;
+}
+
+.font-semibold{
+    font-weight: 600;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+.font-extrabold{
+    font-weight: 800;
+}
+/* ------------------------------------ */
+
+
+
+/*============= Short Cut Area=================*/
+/* ===========Navbar Area Start ==================*/
+
+nav{
+    background-color:rgba(22, 12, 109, 0.582) ;
+    padding: 14px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav .flex{
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    text-align: center;
+}      
+
+.menu{
+    width: 60%;
+   
+}
+
+
+
+nav .menu ul{
+    justify-content: space-between; 
+}
+
+.menu ul li a{
+  color: #EFF4FA;
+  text-transform: capitalize;
+}
+
+
+
+.btn1 {
+    width: 20%;
+    text-align:right;
+    
+}
+
+.btn1 button{
+    background:#1BBF00 ;
+    padding:14px 28px;
+    color:#fff;
+    border-radius: 100px;
+    text-transform: capitalize;
+    transition: .5s;
+    border:1px solid  transparent ;
+}
+
+
+.btn1 button:hover{
+    background:transparent ;
+    border-color:#1BBF00 ;
+    color: #1BBF00;
+ }  
+
+ /*=============  Navbar Area End =================*/
+/* =========== Banner Area Start ==================*/
+
+#banner{
+    background:linear-gradient(rgba(106,98,197,0.9),rgba(106,98,197,0.9)), url(../images/banner.png) center no-repeat;
+    background-size: cover;
+    padding-top:264px;
+    padding-bottom: 250px;
+
+}
+
+#banner .container{
+    position: relative;
+}
+
+
+
+#banner h1{
+    color: #FAFAFE;
+    width: 962px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#banner p {
+	color: #FAFAFE;
+	width: 474px;
+	text-align: center;
+	margin: 0 auto;
+    margin-top: 10px;
+}
+
+#banner .btn2{
+    text-align: center;
+	margin: 0 auto;
+}
+
+
+#banner button {
+    margin-top: 20px;
+}
+
+.btn2 button{
+    background:#1BBF00 ;
+    padding:14px 28px;
+    color:#fff;
+    border-radius: 100px;
+    text-transform: capitalize;
+    transition: .5s;
+    border:1px solid  transparent ;
+    margin-right: 30px;
+}
+
+.btn2 button:last-child{
+    margin-right: 0;
+}
+
+.btn2 button:hover{
+    background:transparent ;
+    border-color:#1BBF00 ;
+ }  
+
+
+#banner .shape-one{
+    position: absolute;
+    top:0;
+    bottom: 0;
+}
+
+#banner .shape-two {
+	position: absolute;
+	right: 2px;
+	bottom: -116px;
+}
+
+
+/*=============  Banner Area End  =================*/
+/* =========== Rating Area Start ==================*/
+
+#rating{
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: #f9f9fb;
+}
+
+#rating .tee { 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+#rating .rating-item{
+    text-align: center;
+    width: 25%;  
+}
+
+#rating .rating-item h2{
+    color: #1BBF00;
+    margin-bottom: 15px;
+}
+
+#rating .rating-item{
+    position: relative;
+}
+
+
+ .rating-item::after{
+    width: 4px;
+    height: 110px;
+    background: #4F585F;
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.rating-item:last-child::after{
+    width: 0;
+}
+
+/*=============  Rating Area End  =================*/
+/* =========== Choose Area Start ==================*/
+
+#choose{
+    position: relative;
+    padding-top:75px;
+    padding-bottom:75px;
+    background: rgba(223, 230, 233, 0.685);
+}
+
+#choose .te {
+	position: absolute;
+	top: -1px;
+	left: -10px;
+    z-index: 1;
+}
+
+
+
+#choose .left{
+    width: 50%; 
+    margin-left: 150px;
+}
+
+#choose .right{
+    width: 50%;
+    margin-left: 60px;
+}
+
+
+#choose .left .box p {
+	width: 290px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+	padding-right: 150px;
+	background-color: transparent;
+    color: #726E9E;
+}
+
+#choose .left .box:hover{
+    background: #fff;
+    box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.75);
+    margin-bottom: 30px;
+}
+
+#choose .left .box {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.6s linear  ;
+}
+
+#choose .left .box img {
+	position: absolute;
+	top: 40px;
+	left: 29px;
+}
+
+#choose .right h2{
+    color: #141135;
+    margin-bottom: 10px;
+}
+
+#choose .right p{
+    color: #726E9E;
+    width: 393px;
+    margin-bottom: 30px;
+}
+
+
+
+#choose .right .btn3 button{
+    background:#1BBF00 ;
+    padding:14px 28px;
+    color:#fff;
+    border-radius: 100px;
+    text-transform: capitalize;
+    transition: .5s;
+    border:1px solid  transparent ;}
+    
+
+
+
+#choose .right .btn3 button:hover{
+    background:transparent ;
+    border-color:#1BBF00 ;
+    color: #1BBF00;
+ }  
+
+
+/*=============  Choose Area End  =================*/
+/* ============= Do Area Start ==================*/
+
+#do{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f6f5ff;
+}
+
+#do .flex{
+    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#do .item1{
+    width: 32%;
+    height: 350px;
+}
+
+#do .item1 h2{
+    color: #141135;
+    margin-bottom: 20px;
+}
+
+#do .item1 p{
+    margin-bottom: 54px;
+    color: #6C7D93;
+    width: 340px;
+    line-height: 32px;
+}
+
+#do .item1 .btn4 button{
+    background:#1BBF00 ;
+    padding:14px 28px;
+    color:#fff;
+    border-radius: 100px;
+    text-transform: capitalize;
+    transition: .5s;
+    border:1px solid  transparent ;}
+    
+
+#do .item1 .btn4 button:hover{
+    background:transparent ;
+    border-color:#1BBF00 ;
+    color: #1BBF00;
+}  
+
+
+#do .item2{
+    box-sizing:border-box;
+    padding: 48px 20px;
+    text-align: center;
+    width: 32%;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+
+#do .item2:hover{
+    background: #6B62C5;
+}
+
+#do .item2:hover h4,#do .item2:hover p,#do .item2:hover a{
+    color: #FAFAFE;
+}
+
+
+#do .item2 h4{
+    color: #141135;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#do .item2 p{
+    color: #726E9E;
+    padding: 0 43px;
+}
+
+#do .item2 a{
+    color: #141135;
+    margin-top: 35px;
+}
+
+/*=============  Do Area End  =================*/
+/* ============= Impact Area Start ==================*/
+
+
+#impact{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#impact .title{
+    text-align: center;
+}
+
+#impact .title p {
+	padding: 0px 384px;
+    color: #726E9E;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+#impact .box .left{
+   width: 50%;
+   height: 550px;
+    
+}
+
+#impact .box .right{
+    width: 50%;
+    height: 550px;
+
+}
+
+#impact .box .left .item{
+    margin-left:100px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+#impact .box .left .item h4{
+    margin-left: 100px;
+}
+
+#impact .box .left .item p{
+    color: #726E9E;
+    width: 343px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#impact .box .left .item img {
+	position: absolute;
+	top: 34px;
+	left: 0;
+}
+
+#impact .box .right{
+    position: relative;
+}
+
+#impact .box .right .one{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#impact .box .right .two {
+	position: absolute;
+	top: 164px;
+	left: 180px;
+}
+
+#impact .box .right .three {
+	position: absolute;
+	top: -35px;
+	left: 254px;
+}
+
+/*=============  Impact Area End  =================*/
+/* ============= List Area Start ==================*/
+
+#list{
+    padding:50px 0;
+    background: #f9f9fb;
+}
+
+
+#list .title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#list .list-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+#list .list-item .item{
+    width: 28%;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding:30px 0;
+}
+
+
+#list .list-item .item:hover{
+      background: #6B62C5;
+}
+
+#list .list-item .item:hover h4{
+      color: #fff;
+}
+
+#list .list-item .item:hover p{
+      color: #E6E5F3;
+}
+
+
+
+#list .list-item .item h4{
+    margin-bottom:195px;
+}
+
+#list .list-item .item h2{
+    color: #1BBF00;
+    margin-bottom: 10px;
+}
+
+
+#list .list-item .item p {
+	padding: 0px 97px;
+    line-height: 32px;
+    color: #726E9E;
+}
+
+
+#list .list-item .item{
+    position: relative;
+}
+
+
+#list .list-item .item .pic {
+	position: absolute;
+	top: 94px;
+	left: 0px;
+}
+
+#list .list-item .item .pic img{
+    width: 100%;
+}
+
+/*=============  List Area End  =================*/
+/* ============= About Area Start ==================*/
+
+#about{
+    padding: 110px 0;
+    background: #f9f9fb;
+   position: relative;
+
+}
+
+#about .title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+#about .about-box {
+	text-align: center;
+	width: 1000px;
+	background: #fff;
+	padding-top: 108px;
+	padding-bottom: 56px;
+	margin: 0 auto;
+	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.75);
+    position: relative; 
+}
+
+#about .about-box i{
+    color: #FF7628;
+}
+
+#about .about-box .hi{
+    margin-top: 20px;
+    padding: 0 100px;
+    color: #726E9E;
+}
+
+#about  .box-bottom{
+    margin-top: 30px;
+}
+
+#about  .box-bottom p{
+    color: #726E9E;
+    margin-top: 10px;
+}
+
+#about .about-box img {
+	position: absolute;
+	top: -78px;
+	left: 437px;
+}  
+
+#about .group1 {
+	position: absolute;
+	top: 435px;
+	right: 199px;
+}
+
+#about .group2{
+    position: absolute;
+    top: 435px;
+    left: 199px;
+}
+
+/*=============  List Area End  =================*/
+/* ============= Deatils Area Start ==================*/
+
+#Deatils{
+    background: #f9f9fb;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+#Deatils .title{
+    margin-bottom: 50px;
+}
+
+#Deatils .box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#Deatils .box .left{
+      width: 33%;
+      
+}
+
+#Deatils .box .right{
+      width: 64%;  
+      position: relative;  
+}
+
+#Deatils .box .right .line{
+    margin-bottom: 20px;
+}
+
+#Deatils .box .right .line .yo{
+    margin-right: 40px;
+    color: #1BBF00;
+}
+
+#Deatils .box .right .line span{
+    margin-left: 10px;
+}
+
+#Deatils .box .right h4{
+    line-height: 55px;
+    padding-right: 296px;}
+
+#Deatils .box .right a{
+    margin-top: 20px;
+    color: #141135;
+    
+}    
+
+#Deatils .box .right .shape img {
+	position: absolute;
+	top: 164px;
+	left: 71px;
+}
+
+
+
+
+/* ============= Deatils Area End ==================*/
+/*=============  Footer Area Start  =================*/
+
+#footers{
+    padding-top: 106px;
+    background: rgba(72, 64, 156, 0.8);
+    
+}
+
+
+#footers  .box{
+    display: flex;
+    column-gap: 100px;
+}
+
+#footers .left{
+    width: 30%;
+} 
+
+#footers .left p{
+    color: #fff;
+    width: 449px;
+    margin-top: 44px;
+    margin-bottom: 100px;
+    line-height: 38px;
+}
+
+
+
+#footers  .right{
+   width: 68%;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+#footers  .right .item1{
+    width: 32%;
+    text-align: center;
+}
+
+#footers  .right .item1 h4{
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+
+#footers .bottom-footer{
+    display: flex;
+}
+
+#footers  .right .item1 ul li a{
+    color: #fff;
+     padding-bottom: 10px;
+}
+
+#footers .bottom-footer .zero {
+	display: flex;
+	margin-right: 759px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#footers .bottom-footer .two{
+    color: #fff;
+}
